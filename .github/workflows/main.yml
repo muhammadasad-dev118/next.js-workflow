@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-       - name: checout repositary
+       - name: checkout repositary
          uses:  actions/checkout@v6.0.1
 
        - name: Setup Node js
